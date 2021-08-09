@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>f_mainmenu_frame</class>
+ <widget class="QDialog" name="f_mainmenu_frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#131239;</string>
+  </property>
+  <widget class="QLabel" name="labelHeading">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>40</y>
+     <width>340</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Copperplate Gothic Light</family>
+     <pointsize>36</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;Copperplate Gothic Light&quot;;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Main Menu</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f_playgame">
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>240</y>
+     <width>250</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial Rounded MT Bold&quot;;
+padding:15px;
+background-color:green;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Play Game</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f_leaderboard">
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>350</y>
+     <width>250</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial Rounded MT Bold&quot;;
+padding:15px;
+background-color:green;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Leaderboard</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f_settings">
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>460</y>
+     <width>250</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial Rounded MT Bold&quot;;
+padding:15px;
+background-color:green;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f_quit">
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>570</y>
+     <width>250</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial Rounded MT Bold&quot;;
+padding:15px;
+background-color:green;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="f_response">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>140</y>
+     <width>500</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Copperplate Gothic Light&quot;;
+color:white;
+</string>
+   </property>
+   <property name="text">
+    <string>Hii, &lt;NAME&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

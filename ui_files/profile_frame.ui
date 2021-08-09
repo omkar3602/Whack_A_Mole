@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>793</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#131239;</string>
+  </property>
+  <widget class="QPushButton" name="f_chusername">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>490</y>
+     <width>280</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial Rounded MT Bold&quot;;
+padding:15px;
+background-color:green;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Change Username</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f_chpassword">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>620</y>
+     <width>280</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial Rounded MT Bold&quot;;
+padding:15px;
+background-color:green;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Change Password</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelHeading">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>60</y>
+     <width>300</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Copperplate Gothic Light</family>
+     <pointsize>36</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;Copperplate Gothic Light&quot;;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>PROFILE </string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_S_Question">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>250</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 15pt &quot;Georgia&quot;;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Security Question:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_S_Question_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>340</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 15pt &quot;Georgia&quot;;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Answer:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="f_scans">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>380</y>
+     <width>400</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding:0px 10px 0px 10px;
+border-radius:5px;
+border:3px solid lightgreen;
+background-color:white;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Answer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="f_back">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 italic 14pt &quot;Georgia&quot;;
+background:white;
+border-radius:5px;
+color:black;</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Images and icon/Back.png</normaloff>../Images and icon/Back.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelHeading_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>130</y>
+     <width>325</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Copperplate Gothic Light</family>
+     <pointsize>36</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;Copperplate Gothic Light&quot;;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>SETTINGS</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="f_response">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>430</y>
+     <width>500</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Meiryo UI&quot;;
+color:red;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="f_scque">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>290</y>
+     <width>400</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding:0px 10px 0px 10px;
+border-radius:5px;
+border:3px solid lightgreen;
+background-color:white;
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Which is your favourite color?</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Which is your favourite book?</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Which is your favourite subject?</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
